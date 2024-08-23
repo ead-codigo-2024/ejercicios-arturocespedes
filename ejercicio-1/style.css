@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(201, 203, 159, 0.877);
+    font-family: "Alegreya Sans";
+    margin: 0;
+    padding: 0;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+}
+
+img {
+ padding-left: 32%;
+ display: flex;
+
+ 
+ 
+ 
+}
+
+h1  {
+    font-size: 100px;
+    padding-top: 5%;
+    padding-left: 10%;
+
+}
