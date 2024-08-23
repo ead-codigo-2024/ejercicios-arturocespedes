@@ -1,11 +1,20 @@
 body{
     background-color: rgba(201, 203, 159, 0.877);
     font-family: "Alegreya Sans";
+    margin: 0;
+    padding: 0;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
 }
 
 img {
  padding-left: 32%;
- position: relative;
+ display: flex;
+
+ 
+ 
  
 }
 
@@ -14,13 +23,4 @@ h1  {
     padding-top: 5%;
     padding-left: 10%;
 
-}
-
-nav {
- background-color: black;
-}
-
-a {
-color: aliceblue;
-padding-left: 5%;
 }
