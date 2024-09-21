@@ -75,20 +75,20 @@ video {
 }
 
 .ver-todas {
-    color: rgba(39, 117, 218, 0.8); /* Color azul */
-    text-decoration: none; /* Eliminar subrayado */
-    font-size: 16px;
+    color: rgba(39, 117, 218, 0.8); 
+    text-decoration: none; 
+    font-size: 14px;
     display: flex;
     font-family: Helvetica, sans-serif;
-    align-items: center; /* Alinear verticalmente el icono */
+    align-items: center; 
 }
 
 .icono-plus {
     
-    margin-left: 5px; /* Espaciado entre el texto y el icono */
-    font-size: 14px; /* Tamaño del ícono */
-    color: rgba(255, 255, 255); /* Color del ícono */
-    background-color: rgba(39, 117, 218, 0.8); /* Fondo azul */
-    border-radius: 50%; /* Hacerlo circular */
-    padding: 5px; /* Espaciado interno para el ícono */
+    margin-left: 5px; 
+    font-size: 10px; 
+    color: rgba(255, 255, 255); 
+    background-color: rgba(39, 117, 218, 0.8);
+    border-radius: 50%; 
+    padding: 5px; 
 }
