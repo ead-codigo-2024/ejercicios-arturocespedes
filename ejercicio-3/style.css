@@ -1,0 +1,92 @@
+.container {
+    max-width: 900px;
+    margin-inline: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.container_header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.container_header h3 {
+    margin-inline-end: auto;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.raya {
+    color: rgb(241, 103, 48);
+}
+
+.container_body {
+    font-family: Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    font-size: 16px;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+@media (max-width: 800px) {
+    .container_body {
+        grid-template-columns: unset;
+    }
+}
+
+.access {
+    position: relative; 
+}
+
+.access__tag {
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    background-color: rgba(39, 117, 218, 0.8); 
+    padding: 3px 7px; 
+    border-radius: 5px; 
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+}
+
+.access__content {
+    font-family: Helvetica, sans-serif;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.access__epigraph {
+    font-size: 12px;
+    color: rgb(172, 175, 179);
+}
+
+.guionbajo {
+    font-family: Helvetica, sans-serif;
+    color: rgba(39, 117, 218, 0.8);
+}
+
+.ver-todas {
+    color: rgba(39, 117, 218, 0.8); /* Color azul */
+    text-decoration: none; /* Eliminar subrayado */
+    font-size: 16px;
+    display: flex;
+    align-items: center; /* Alinear verticalmente el icono */
+}
+
+.icono-plus {
+    margin-left: 5px; /* Espaciado entre el texto y el icono */
+    font-size: 14px; /* Tamaño del ícono */
+    color: rgba(255, 255, 255); /* Color del ícono */
+    background-color: rgba(39, 117, 218, 0.8); /* Fondo azul */
+    border-radius: 50%; /* Hacerlo circular */
+    padding: 5px; /* Espaciado interno para el ícono */
+}
